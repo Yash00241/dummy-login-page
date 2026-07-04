@@ -13,7 +13,7 @@ A responsive glassmorphism-inspired Login and Signup page with smooth transition
 
 `HTML` · `CSS` · `JavaScript`
 
-## 🚀 Get the live preview [here](#)!
+## 🚀 Get the live preview [here](https://dummy-login-page-kdj8.vercel.app/)!
 
 
 
