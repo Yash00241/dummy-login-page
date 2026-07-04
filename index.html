@@ -1,0 +1,97 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Signup</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <video autoplay muted loop playsinline id="bg-video">
+        <source src="background.mp4" type="video/mp4">
+    </video>
+
+    <div class="container">
+
+        <div class="forms">
+
+            <form class="login-form">
+
+                <h2>Login</h2>
+
+                <div class="input-field">
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+
+                <div class="input-field">
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+
+                <div class="forget">
+                    <label>
+                        <input type="checkbox">
+                        <p>Remember me</p>
+                    </label>
+
+                    <a href="#">Forgot Password?</a>
+                </div>
+
+                <button>Login</button>
+
+                <div class="Create-account">
+                    <p>
+                        Don't have an account?
+                        <a href="#" id="showSignup">Create Account</a>
+                    </p>
+                </div>
+
+            </form>
+
+            <!-- SIGNUP -->
+            <form class="signup-form">
+
+                <h2>Create Account</h2>
+
+                <div class="input-field">
+                    <input type="text" required>
+                    <label>Full Name</label>
+                </div>
+
+                <div class="input-field">
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+
+                <div class="input-field">
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+
+                <div class="input-field">
+                    <input type="password" required>
+                    <label>Confirm Password</label>
+                </div>
+
+                <button>Create Account</button>
+
+                <div class="Create-account">
+                    <p>
+                        Already have an account?
+                        <a href="#" id="showLogin">Login</a>
+                    </p>
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
