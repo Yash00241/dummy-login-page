@@ -1,7 +1,3 @@
-# Login & Signup UI
-
-A responsive glassmorphism-inspired Login and Signup page with smooth transitions and an animated background.
-
 ## Features
 * Login and Create Account panels
 * Smooth switching animation
